@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6f6;
+    color: #333;
+}
+
+header {
+    background-color: #ffcccc;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background: url('../images/hero.jpg') no-repeat center/cover;
+    color: grey;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.insta-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.insta-gallery img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #ff9999;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e08888;
+}
+
+footer {
+    background-color: #ffcccc;
+    text-align: center;
+    padding: 20px;
+}
+
+.socials a {
+    margin: 0 10px;
+    color: #333;
+}
